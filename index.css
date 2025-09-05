@@ -1,11 +1,11 @@
 
     .btn-custom-red {
-        background-color: #b22222;
-        border-color: #b22222;
+    background-color: #b22222;
+    border-color: #b22222;
     }
     .btn-custom-red:hover {
-        background-color: #8b1a1a;
-        border-color: #8b1a1a;
+    background-color: #8b1a1a;
+    border-color: #8b1a1a;
     }
 
     .navbar-compact {
@@ -14,8 +14,8 @@
     }
 
     .logo-custom {
-    border: 2px solid white; /* mesma cor do btn btn-custom-red */
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* leve relevo */
+    border: 2px solid white; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); 
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     }
 

@@ -29,26 +29,27 @@
 
     <main class="form-signin w-100 m-auto text-center d-flex flex-column justify-content-center align-items-center"
         style="max-width: 330px; flex: 1">
-        <form action="">
+        <form name="cadastro" action="registra.php" method="post">
             <h1 class="h2 mb-5 fw-normal">Registre-se!<br />Você que sabe, hein!</h1>
 
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingUser" placeholder="Usuario" />
+                <input name="usuario" type="text" class="form-control" id="floatingUser" placeholder="Usuario" />
                 <label for="floatingUser">Usuário</label>
             </div>
 
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingUserName" placeholder="Nome Completo" />
+                <input name="nome" type="text" class="form-control" id="floatingUserName" placeholder="Nome Completo" />
                 <label for="floatingUserName">Nome Completo</label>
             </div>
 
             <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingEmail" placeholder="nome@example.com" />
+                <input name="email" type="email" class="form-control" id="floatingEmail"
+                    placeholder="nome@example.com" />
                 <label for="floatingEmail">Email</label>
             </div>
 
             <div class="form-floating mb-3">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Senha" />
+                <input name="senha" type="password" class="form-control" id="floatingPassword" placeholder="Senha" />
                 <label for="floatingPassword">Senha</label>
             </div>
 
