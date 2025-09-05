@@ -1,0 +1,14 @@
+
+    .btn-custom-red {
+        background-color: #b22222;
+        border-color: #b22222;
+    }
+    .btn-custom-red:hover {
+        background-color: #8b1a1a;
+        border-color: #8b1a1a;
+    }
+
+    .navbar-compact {
+    padding-top: 0.25rem;   /* metade do padrão */
+    padding-bottom: 0.25rem;
+    }
